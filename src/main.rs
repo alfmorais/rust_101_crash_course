@@ -20,4 +20,5 @@ fn main() {
     control_flow_if::control_flow_if(17);
 
     looping::looping_for();
+    looping::looping_while();
 }
