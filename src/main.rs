@@ -1,10 +1,11 @@
+mod basic_arithmetic;
 mod control_flow_if;
 mod data_types;
+mod exercise_a1;
 mod function;
 mod looping;
 mod macro_println;
 mod variables;
-mod exercise_a1;
 
 fn main() {
     println!("Hello, world!");
@@ -28,4 +29,6 @@ fn main() {
     exercise_a1::my_name(first_name, last_name);
     exercise_a1::first_name();
     exercise_a1::last_name();
+
+    basic_arithmetic::basic_operations();
 }
