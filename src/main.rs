@@ -3,6 +3,7 @@ mod control_flow_if;
 mod data_types;
 mod exercise_a1;
 mod exercise_a2;
+mod exercise_a3;
 mod function;
 mod looping;
 mod macro_println;
@@ -35,4 +36,10 @@ fn main() {
 
     let total = exercise_a2::add(10, 9);
     exercise_a2::display_result(total);
+
+    let is_arrived = true;
+    exercise_a3::greetings(is_arrived);
+
+    let is_arrived = false;
+    exercise_a3::greetings(is_arrived);
 }
