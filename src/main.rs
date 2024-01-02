@@ -4,6 +4,7 @@ mod function;
 mod looping;
 mod macro_println;
 mod variables;
+mod exercise_a1;
 
 fn main() {
     println!("Hello, world!");
@@ -21,4 +22,10 @@ fn main() {
 
     looping::looping_for();
     looping::looping_while();
+
+    let first_name = "Alfredo".to_string();
+    let last_name = "De Morais Neto".to_string();
+    exercise_a1::my_name(first_name, last_name);
+    exercise_a1::first_name();
+    exercise_a1::last_name();
 }
