@@ -2,6 +2,7 @@ mod basic_arithmetic;
 mod control_flow_if;
 mod data_types;
 mod exercise_a1;
+mod exercise_a2;
 mod function;
 mod looping;
 mod macro_println;
@@ -31,4 +32,7 @@ fn main() {
     exercise_a1::last_name();
 
     basic_arithmetic::basic_operations();
+
+    let total = exercise_a2::add(10, 9);
+    exercise_a2::display_result(total);
 }
