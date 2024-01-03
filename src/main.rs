@@ -1,12 +1,12 @@
 mod basic_arithmetic;
 mod control_flow_if;
 mod data_types;
-mod exercise_a1;
-mod exercise_a2;
-mod exercise_a3;
+mod a1;
+mod a2;
+mod a3;
 mod exercise_a3b;
-mod excercise_a4;
-mod exercise_a5;
+mod a4;
+mod a5;
 mod function;
 mod looping;
 mod macro_println;
@@ -32,32 +32,32 @@ fn main() {
 
     let first_name = "Alfredo".to_string();
     let last_name = "De Morais Neto".to_string();
-    exercise_a1::my_name(first_name, last_name);
-    exercise_a1::first_name();
-    exercise_a1::last_name();
+    a1::my_name(first_name, last_name);
+    a1::first_name();
+    a1::last_name();
 
     basic_arithmetic::basic_operations();
 
-    let total = exercise_a2::add(10, 9);
-    exercise_a2::display_result(total);
+    let total = a2::add(10, 9);
+    a2::display_result(total);
 
     let is_arrived = true;
-    exercise_a3::greetings(is_arrived);
+    a3::greetings(is_arrived);
 
     let is_arrived = false;
-    exercise_a3::greetings(is_arrived);
+    a3::greetings(is_arrived);
 
     let number: i32 = 5;
-    exercise_a3b::check_number_logic(number);
+    a3::check_number_logic(number);
 
     match_function::match_example();
     match_function::match_my_name();
 
     let some_bool = false;
-    excercise_a4::checking_boolean(some_bool);
+    a4::checking_boolean(some_bool);
 
     let some_integer = 2;
-    excercise_a4::checking_number(some_integer);
+    a4::checking_number(some_integer);
 
-    exercise_a5::looping();
+    a5::looping();
 }
