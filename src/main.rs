@@ -5,6 +5,7 @@ mod exercise_a1;
 mod exercise_a2;
 mod exercise_a3;
 mod exercise_a3b;
+mod excercise_a4;
 mod function;
 mod looping;
 mod macro_println;
@@ -50,4 +51,7 @@ fn main() {
 
     match_function::match_example();
     match_function::match_my_name();
+
+    let some_bool = false;
+    excercise_a4::checking_boolean(some_bool);
 }
