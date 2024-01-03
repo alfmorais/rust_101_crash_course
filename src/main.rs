@@ -6,6 +6,7 @@ mod exercise_a2;
 mod exercise_a3;
 mod exercise_a3b;
 mod excercise_a4;
+mod exercise_a5;
 mod function;
 mod looping;
 mod macro_println;
@@ -57,4 +58,6 @@ fn main() {
 
     let some_integer = 2;
     excercise_a4::checking_number(some_integer);
+
+    exercise_a5::looping();
 }

@@ -6,7 +6,7 @@ pub fn looping_for() {
             println!("Finished at: {a:?}");
             break;
         }
-        println!("{:?}", a);
+        println!("Count: {:?}", a);
         a = a + 1;
     }
 }
