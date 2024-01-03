@@ -4,6 +4,7 @@ mod data_types;
 mod exercise_a1;
 mod exercise_a2;
 mod exercise_a3;
+mod exercise_a3b;
 mod function;
 mod looping;
 mod macro_println;
@@ -42,4 +43,7 @@ fn main() {
 
     let is_arrived = false;
     exercise_a3::greetings(is_arrived);
+
+    let number: i32 = 5;
+    exercise_a3b::check_number_logic(number);
 }
