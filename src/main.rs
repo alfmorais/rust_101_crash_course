@@ -8,6 +8,7 @@ mod exercise_a3b;
 mod function;
 mod looping;
 mod macro_println;
+mod match_function;
 mod variables;
 
 fn main() {
@@ -46,4 +47,7 @@ fn main() {
 
     let number: i32 = 5;
     exercise_a3b::check_number_logic(number);
+
+    match_function::match_example();
+    match_function::match_my_name();
 }
