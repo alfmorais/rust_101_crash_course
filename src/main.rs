@@ -60,4 +60,5 @@ fn main() {
     a4::checking_number(some_integer);
 
     a5::looping();
+    a5::looping_with_while();
 }
