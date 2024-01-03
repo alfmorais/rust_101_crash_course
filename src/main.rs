@@ -54,4 +54,7 @@ fn main() {
 
     let some_bool = false;
     excercise_a4::checking_boolean(some_bool);
+
+    let some_integer = 2;
+    excercise_a4::checking_number(some_integer);
 }
