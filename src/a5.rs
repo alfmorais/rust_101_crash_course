@@ -39,11 +39,11 @@ NOTES:
 */
 
 pub fn looping_with_while() -> () {
-    let mut a = 5;
+    let mut number = 5;
 
-    while a != 0 {
-        println!("Count: {a:?}");
-        a = a - 1;
+    while number != 0 {
+        println!("Count: {number:?}");
+        number = number - 1;
     }
     println!("Done!");
 }
