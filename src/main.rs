@@ -16,6 +16,7 @@ mod match_function;
 mod struct_datatype;
 mod tuple;
 mod variables;
+mod a9;
 
 fn main() {
     println!("Hello, world!");
@@ -93,4 +94,10 @@ fn main() {
     tuple::function_tuple_demo();
 
     a8::coordinates();
+
+    let value = 101;
+    a9::result(value);
+
+    let value_less_than_one_hundred = 99;
+    a9::result(value_less_than_one_hundred);
 }
