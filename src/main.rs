@@ -1,17 +1,18 @@
-mod basic_arithmetic;
-mod control_flow_if;
-mod data_types;
 mod a1;
 mod a2;
 mod a3;
-mod exercise_a3b;
 mod a4;
 mod a5;
 mod a6;
+mod a7;
+mod basic_arithmetic;
+mod control_flow_if;
+mod data_types;
 mod function;
 mod looping;
 mod macro_println;
 mod match_function;
+mod struct_datatype;
 mod variables;
 
 fn main() {
@@ -71,4 +72,19 @@ fn main() {
     a6::print_colors(red);
     a6::print_colors(black);
     a6::print_colors(green);
+
+    struct_datatype::struct_data();
+    struct_datatype::grocery_data();
+
+    let cholate_liquer = a7::Drink {
+        flavor: a7::Flavors::ChocolateLiquer,
+        fluid_oz: 300.0,
+    };
+    let sparking_wine = a7::Drink {
+        flavor: a7::Flavors::SparkingWine,
+        fluid_oz: 500.0,
+    };
+
+    a7::show_drink(cholate_liquer);
+    a7::show_drink(sparking_wine);
 }
