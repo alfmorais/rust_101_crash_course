@@ -9,6 +9,8 @@ STRUCTURE
 -> Similar data can be grouped together
 */
 
+
+#![allow(dead_code)]
 pub struct ShippingBox {
     depth: i32,
     width: i32,
