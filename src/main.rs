@@ -7,6 +7,7 @@ mod a3;
 mod exercise_a3b;
 mod a4;
 mod a5;
+mod a6;
 mod function;
 mod looping;
 mod macro_println;
@@ -61,4 +62,13 @@ fn main() {
 
     a5::looping();
     a5::looping_with_while();
+
+    let blue = a6::Colors::Blue;
+    let red = a6::Colors::Red;
+    let black = a6::Colors::Black;
+    let green = a6::Colors::Green;
+    a6::print_colors(blue);
+    a6::print_colors(red);
+    a6::print_colors(black);
+    a6::print_colors(green);
 }
