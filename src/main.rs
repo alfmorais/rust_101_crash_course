@@ -13,6 +13,7 @@ mod looping;
 mod macro_println;
 mod match_function;
 mod struct_datatype;
+mod tuple;
 mod variables;
 
 fn main() {
@@ -87,4 +88,6 @@ fn main() {
 
     a7::show_drink(cholate_liquer);
     a7::show_drink(sparking_wine);
+
+    tuple::function_tuple_demo();
 }
