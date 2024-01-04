@@ -5,6 +5,7 @@ mod a4;
 mod a5;
 mod a6;
 mod a7;
+mod a8;
 mod basic_arithmetic;
 mod control_flow_if;
 mod data_types;
@@ -90,4 +91,6 @@ fn main() {
     a7::show_drink(sparking_wine);
 
     tuple::function_tuple_demo();
+
+    a8::coordinates();
 }
